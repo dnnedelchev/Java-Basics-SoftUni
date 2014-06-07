@@ -1,0 +1,6 @@
+Locale.setDefault(Locale.ROOT);
+
+
+
+DecimalFormat formatter = new DecimalFormat("#0.00");
+	return formatter.format(this.price) + " " + this.name;
